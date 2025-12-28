@@ -10,9 +10,7 @@ from reportlab.pdfgen import canvas
 
 # ================= CONFIG =================
 import os
-BOT_TOKEN = os.getenv("8553731820:AAEk-sckvYkBXwLuZbI_DfXSJZFI61WI22o")
-
-BOT_TOKEN = ""
+BOT_TOKEN = os.getenv("BOT_TOKEN")
 
 OWNER_USERNAMES = ["philip_007"]
 BACKEND_ADMIN_IDS = [1074526287,]
