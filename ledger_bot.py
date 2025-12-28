@@ -19,7 +19,7 @@ BACKEND_ADMIN_IDS = [1074526287,]
 ACCESS_DENIED = "🚫 Access denied."
 
 # ================= DATABASE =================
-db = sqlite3.connect("hybrid_ledger.db", check_same_thread=False)
+db = sqlite3.connect("hybrid_ledger.db"), check_same_thread=False)
 cur = db.cursor()
 
 cur.executescript("""
